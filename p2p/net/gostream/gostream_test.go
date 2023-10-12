@@ -51,7 +51,7 @@ func TestServerClient(t *testing.T) {
 		}
 		defer listener.Close()
 
-		if listener.Addr().String() != srvHost.ID().String() {
+		if listener.Addr().String() != srvHost.ID().Pretty() {
 			t.Error("bad listener address")
 			return
 		}
@@ -91,11 +91,11 @@ func TestServerClient(t *testing.T) {
 		t.Fatal(err)
 	}
 
-	if clientConn.LocalAddr().String() != clientHost.ID().String() {
+	if clientConn.LocalAddr().String() != clientHost.ID().Pretty() {
 		t.Fatal("Bad LocalAddr")
 	}
 
-	if clientConn.RemoteAddr().String() != srvHost.ID().String() {
+	if clientConn.RemoteAddr().String() != srvHost.ID().Pretty() {
 		t.Fatal("Bad RemoteAddr")
 	}
 

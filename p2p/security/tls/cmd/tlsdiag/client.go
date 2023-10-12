@@ -33,7 +33,7 @@ func StartClient() error {
 	if err != nil {
 		return err
 	}
-	fmt.Printf(" Peer ID: %s\n", id)
+	fmt.Printf(" Peer ID: %s\n", id.Pretty())
 	tp, err := libp2ptls.New(libp2ptls.ID, priv, nil)
 	if err != nil {
 		return err
@@ -53,7 +53,7 @@ func StartClient() error {
 	if err != nil {
 		return err
 	}
-	fmt.Printf("Authenticated server: %s\n", sconn.RemotePeer())
+	fmt.Printf("Authenticated server: %s\n", sconn.RemotePeer().Pretty())
 	data, err := io.ReadAll(sconn)
 	if err != nil {
 		return err
