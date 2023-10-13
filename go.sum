@@ -105,6 +105,8 @@ github.com/distractedm1nd/quic-go v0.0.0-20231012102228-93c9848c8a96 h1:fCZs/FDk
 github.com/distractedm1nd/quic-go v0.0.0-20231012102228-93c9848c8a96/go.mod h1:xuV6xmn4/Xh3LbWFNXFz1x+NkaoM2zV2hVUlBY9Pevs=
 github.com/distractedm1nd/quic-go v0.0.0-20231012135244-94a9a65cdeeb h1:D3GkC5nsX3RcThwvnEnV1sletbievXQ1CVTqs6cYS7I=
 github.com/distractedm1nd/quic-go v0.0.0-20231012135244-94a9a65cdeeb/go.mod h1:xuV6xmn4/Xh3LbWFNXFz1x+NkaoM2zV2hVUlBY9Pevs=
+github.com/distractedm1nd/quic-go v0.0.0-20231013091840-92e38190041d h1:GHklAG+93t5M4DwrlRT3rXhoWr5b1r7n/0vTp9ID/Mo=
+github.com/distractedm1nd/quic-go v0.0.0-20231013091840-92e38190041d/go.mod h1:xuV6xmn4/Xh3LbWFNXFz1x+NkaoM2zV2hVUlBY9Pevs=
 github.com/docker/go-units v0.4.0/go.mod h1:fgPhTUdO+D/Jk86RDLlptpiXQzgHJF7gydDDbaIK4Dk=
 github.com/docker/go-units v0.5.0 h1:69rxXcBk27SvSaaxTtLh/8llcHD8vYHT7WSdRZ/jvr4=
 github.com/docker/go-units v0.5.0/go.mod h1:fgPhTUdO+D/Jk86RDLlptpiXQzgHJF7gydDDbaIK4Dk=

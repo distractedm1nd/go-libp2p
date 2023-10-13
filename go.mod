@@ -77,7 +77,7 @@ require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dgraph-io/badger v1.6.2 // indirect
 	github.com/dgraph-io/ristretto v0.0.2 // indirect
-	github.com/distractedm1nd/quic-go v0.0.0-20231012135244-94a9a65cdeeb // indirect
+	github.com/distractedm1nd/quic-go v0.0.0-20231013091840-92e38190041d // indirect
 	github.com/docker/go-units v0.5.0 // indirect
 	github.com/dustin/go-humanize v1.0.0 // indirect
 	github.com/elastic/gosigar v0.14.2 // indirect
@@ -132,4 +132,4 @@ require (
 	lukechampine.com/blake3 v1.2.1 // indirect
 )
 
-replace github.com/quic-go/quic-go => github.com/distractedm1nd/quic-go v0.0.0-20231012135244-94a9a65cdeeb
+replace github.com/quic-go/quic-go => github.com/distractedm1nd/quic-go v0.0.0-20231013091840-92e38190041d
